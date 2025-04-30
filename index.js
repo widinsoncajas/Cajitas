@@ -19,26 +19,25 @@ app.get('/', (req, res) => {
   });
 });
 
-// Ruta para ejecutar y servir el archivo PHP en GAMA_FAMILIAR (GAMA_FAMI.php)
-app.get('/GAMA_FAMILIAR/GAMA_FAMI.php', (req, res) => {
-  const phpFilePath = path.join(__dirname, 'GAMA_FAMILIAR', 'GAMA_FAMI.php');
+// Ruta para ejecutar y servir el archivo PHP clien_list.php
+app.get('/clien_list.php', (req, res) => {
+  const phpFilePath = path.join(__dirname, 'clien_list.php');  // Ruta del archivo PHP clien_list.php
   exec(`php ${phpFilePath}`, (err, stdout, stderr) => {
     if (err) {
       console.error('Error ejecutando el archivo PHP:', err);
-      return res.status(500).send('Error ejecutando el archivo PHP en GAMA_FAMILIAR');
+      return res.status(500).send('Error ejecutando el archivo PHP clien_list.php');
     }
     if (stderr) {
       console.error('stderr:', stderr);
-      return res.status(500).send('Error en la ejecución de PHP en GAMA_FAMILIAR');
+      return res.status(500).send('Error en la ejecución de PHP clien_list.php');
     }
     res.send(stdout);  // Devuelve la salida del archivo PHP
   });
 });
 
-// Configuración para servir archivos estáticos (imágenes, CSS, JS) en la carpeta GAMA_FAMILIAR
+// Configuración para servir archivos estáticos (imágenes, CSS, JS)
 app.use('/GAMA_FAMILIAR', express.static(path.join(__dirname, 'GAMA_FAMILIAR')));
 app.use('/imagenes', express.static(path.join(__dirname, 'imagenes')));
-
 // Puerto donde el servidor escuchará
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
