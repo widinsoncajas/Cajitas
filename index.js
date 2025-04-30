@@ -19,17 +19,17 @@ app.get('/', (req, res) => {
   });
 });
 
-// Ruta para ejecutar y servir el archivo PHP clien_list.php
+// Ruta para ejecutar y servir el archivo PHP en GAMA_FAMILIAR
 app.get('/clien_list.php', (req, res) => {
-  const phpFilePath = path.join(__dirname, 'clien_list.php');  // Ruta del archivo PHP clien_list.php
+  const phpFilePath = path.join(__dirname, 'clien_list.php');
   exec(`php ${phpFilePath}`, (err, stdout, stderr) => {
     if (err) {
       console.error('Error ejecutando el archivo PHP:', err);
-      return res.status(500).send('Error ejecutando el archivo PHP clien_list.php');
+      return res.status(500).send('Error ejecutando el archivo PHP en clien_list.php');
     }
     if (stderr) {
       console.error('stderr:', stderr);
-      return res.status(500).send('Error en la ejecución de PHP clien_list.php');
+      return res.status(500).send('Error en la ejecución de PHP en clien_list.php');
     }
     res.send(stdout);  // Devuelve la salida del archivo PHP
   });
