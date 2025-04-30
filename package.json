@@ -1,0 +1,21 @@
+
+{
+  "name": "CAMARO_RAPTOR",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de gestión de vehículos para la empresa Camaro Raptor.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/widinsoncajas/accion.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  }
+}

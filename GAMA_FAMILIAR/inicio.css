@@ -1,0 +1,195 @@
+<<<<<<< HEAD
+body{
+    background-image: url();
+    background-image: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+   }
+
+  
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body{
+       font-family: 'Open Sans';
+   }
+   
+   header{
+       background-color: #efe4e4;
+       text-align: center;
+       padding: 25px;
+   }
+   nav a{
+       display: inline-block;
+       text-decoration: none;
+       color: #231515;
+       margin: 0 30px;
+       padding: 5px 0px;
+       border-radius: 30px;
+   }
+   nav a:hover {
+       background-color: #a69393;
+       color: #2d2121;
+   }
+   .encabezado-img{
+       background-image: url(img/fondo.jpg);
+       background-size: cover;
+       height: 450px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: #fff;
+   }
+   .encabezado-img p{
+       font-size: 18px;
+   }
+   .encabezado-img h1{
+       font-size: 50px;
+       padding: 15px 0;
+   
+   }
+  
+   
+   
+    
+    
+
+=======
+<<<<<<< HEAD
+body{
+    background-image: url();
+    background-image: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+   }
+
+  
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body{
+       font-family: 'Open Sans';
+   }
+   
+   header{
+       background-color: #efe4e4;
+       text-align: center;
+       padding: 25px;
+   }
+   nav a{
+       display: inline-block;
+       text-decoration: none;
+       color: #231515;
+       margin: 0 30px;
+       padding: 5px 0px;
+       border-radius: 30px;
+   }
+   nav a:hover {
+       background-color: #a69393;
+       color: #2d2121;
+   }
+   .encabezado-img{
+       background-image: url(img/fondo.jpg);
+       background-size: cover;
+       height: 450px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: #fff;
+   }
+   .encabezado-img p{
+       font-size: 18px;
+   }
+   .encabezado-img h1{
+       font-size: 50px;
+       padding: 15px 0;
+   
+   }
+  
+   
+   
+    
+    
+
+=======
+body{
+    background-image: url();
+    background-image: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+   }
+
+  
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body{
+       font-family: 'Open Sans';
+   }
+   
+   header{
+       background-color: #efe4e4;
+       text-align: center;
+       padding: 25px;
+   }
+   nav a{
+       display: inline-block;
+       text-decoration: none;
+       color: #231515;
+       margin: 0 30px;
+       padding: 5px 0px;
+       border-radius: 30px;
+   }
+   nav a:hover {
+       background-color: #a69393;
+       color: #2d2121;
+   }
+   .encabezado-img{
+       background-image: url(img/fondo.jpg);
+       background-size: cover;
+       height: 450px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: #fff;
+   }
+   .encabezado-img p{
+       font-size: 18px;
+   }
+   .encabezado-img h1{
+       font-size: 50px;
+       padding: 15px 0;
+   
+   }
+  
+   
+   
+    
+    
+
+>>>>>>> 3b36bcf60ef3352292526c56cd1c2a3d013545b5
+>>>>>>> 385b4c70925897719a0be7311cee9ece92ce7643

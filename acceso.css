@@ -1,0 +1,55 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+
+
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content{
+min-height: 80px;
+background: linear-gradient(
+  rgba(203,18,133,1)0%,
+  rgba(80,49,145,1)70%
+);
+
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%) ;
+  width: 400px;
+  background: rgb(105, 95, 95);
+  border-radius: 10px;
+  }
+  .container h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  }
+  
+  .container form{
+    padding: 0 30%;
+    box-sizing: border-box;
+    
+    }
+    body{
+      background-image: url(imagenes/paisaje2.jpg);
+      background-image: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+
