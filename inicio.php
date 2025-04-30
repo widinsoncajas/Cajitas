@@ -147,7 +147,7 @@
 
     <div class="btn-container">
         <a href="xxx.php" class="btn">Ver Registros de Reservas</a>
-        <a href="reg_clientes.php" class="btn">Registrarse como Cliente</a>
+        <a href="julexi.php" class="btn">Registrarse como Cliente</a>
         <a href="clien_list.php" class="btn">Lista de Clientes</a>
         
 

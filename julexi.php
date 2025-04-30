@@ -167,19 +167,7 @@
         </nav>
 
         <ul class="navbar">
-            <li>
-                <a href="Kia_blanco.php">
-                    <img src="GAMA_FAMILIAR/imagenes_vehiculos/gama alt.jpeg" alt="Gama Alta">
-                    <h3>GAMA ALTA</h3>
-                </a>
-            </li>
-            <li>
-                <a href="GAMA_MEDIA/GAMA_MEDIAA.php">
-                    <img src="GAMA_FAMILIAR/imagenes_vehiculos/FORTUNER.jpg" alt="Gama Media">
-                    <h3>GAMA MEDIA</h3>
-                </a>
-            </li>
-            <li>
+    
                 <a href="Kia_blanco.php">
                     <img src="GAMA_FAMILIAR/imagenes_vehiculos/CAPTIVA.jpeg" alt="Gama Baja">
                     <h3>GAMA BAJA</h3>
