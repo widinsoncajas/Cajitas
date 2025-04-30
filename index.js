@@ -23,12 +23,9 @@ app.get('/', (req, res) => {
 });
 
 // Ruta para servir el archivo PHP en GAMA_FAMILIAR
-app.get('/GAMA_FAMILIAR/GAMA_FAMI.php', (req, res) => {
-  res.sendFile(path.join(__dirname, 'GAMA_FAMILIAR', 'GAMA_FAMI.php'));
-});
-
-// Ruta para servir archivos estáticos (imágenes, CSS, JS)
 app.use('/GAMA_FAMILIAR', express.static(path.join(__dirname, 'GAMA_FAMILIAR')));
+
+
 
 // Puerto donde el servidor escuchará
 const port = process.env.PORT || 3000;
