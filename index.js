@@ -21,12 +21,12 @@ app.get('/', (req, res) => {
 });
 
 // Ruta para ejecutar y servir el archivo PHP en GAMA_FAMILIAR
-app.get('CAMARO_RAPTOR/GAMA_FAMILIAR/GAMA_FAMI.php', (req, res) => {
+app.get('GAMA_FAMILIAR/GAMA_FAMI.php', (req, res) => {
   const phpFilePath = path.join(__dirname, 'GAMA_FAMILIAR', 'GAMA_FAMI.php');
   exec(`php ${phpFilePath}`, (err, stdout, stderr) => {
     if (err) {
       console.error('Error al ejecutar PHP:', err);
-      return res.status(500).send('Error ejecutando el archivo PHP');
+      return res.status(500).send('Error ejecutando el archivo coño PHP');
     }
     if (stderr) {
       console.error('stderr:', stderr);
